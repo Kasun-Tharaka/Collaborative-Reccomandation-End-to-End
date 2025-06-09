@@ -18,4 +18,8 @@ conda create -n "env_name" python==3.7.10 -y
 conda activate "env_name"
 ```
 
-### 02:
+### 02: Requirements installing
+
+```bash
+pip install -r requirements.txt
+```
