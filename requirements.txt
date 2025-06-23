@@ -2,3 +2,6 @@ scikit-learn
 pandas
 numpy
 ipykernel
+-e . # check for setup.py and make project as local package n install on the system
+PyYAML
+streamlit
