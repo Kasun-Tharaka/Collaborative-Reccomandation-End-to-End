@@ -1,0 +1,13 @@
+# Difine the inputs and outputs which requires to the whole project. 
+
+artifacts_config:
+  artifact_dir : artifacts
+
+
+data_ingestion_config:
+  dataset_download_url: 'upload an zip folder to github and paste link here'
+  dataset_dir: dataset
+  ingested_dir: ingested_data
+  raw_data_dir: raw_data
+
+

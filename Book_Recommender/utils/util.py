@@ -6,7 +6,7 @@ from Book_Recommender.exception.exception_handler import AppException
 
 
 # function for read YAML files and return content as dictionary
-def read_yaml_file(file_path : str)->dict:
+def read_yaml_file(file_path : str) -> dict:
     try:
         with open(file_path, 'rb') as yaml_file:
             return yaml.safe_load(yaml_file)

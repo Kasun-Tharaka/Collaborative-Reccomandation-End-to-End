@@ -8,6 +8,6 @@ try:
     k = 10/ 0
 
 except Exception as e:
-    
+
     logging.info(e)
     raise AppException(e, sys) from e
