@@ -1,5 +1,14 @@
 # Collaborative Book Recommender System
 
+## Work Flow
+- config.yaml
+- Entity(config entity)
+- config/configuration.py
+- components
+- pipeline
+- end point(main.py)
+- app.py
+
 ## How to Run the in your sytem
 
 Clone the Repo
